@@ -151,8 +151,8 @@ while (true)
             Console.WriteLine("Введите первое число: ");
             int one_Input = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите второе число: ");
-            int two_Input = Convert.ToInt32(Console.ReadLine());
-            int sum = one_Input / two_Input;
+            float two_Input = Convert.ToInt32(Console.ReadLine());
+            float sum = one_Input / two_Input;
             Console.WriteLine(one_Input + " / " + two_Input + " = " + sum);
             Console.WriteLine("Выйти в главное меню? Да/Нет");
             string three_Input = Console.ReadLine();
