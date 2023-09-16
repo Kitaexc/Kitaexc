@@ -5,10 +5,10 @@ bool exit_2 = false;
 while (true)
 {
     exit = false;
-    Console.WriteLine("1 - Сложение \n 2 - Вычитание \n 3 - Умножение \n 4 - Деление \n 5 - Возведение в степень \n 6 - Квадратный корень \n 7 - Процент от числа \n 8 - Факториал \n 9 - Выйти из программы ");
+    Console.WriteLine(" 1 - Сложение \n 2 - Вычитание \n 3 - Умножение \n 4 - Деление \n 5 - Возведение в степень \n 6 - Квадратный корень \n 7 - Процент от числа \n 8 - Факториал \n 9 - Выйти из программы ");
     Console.WriteLine("Выберите действие:");
     int answer_1 = Convert.ToInt32(Console.ReadLine());
-    if (answer_1 == 1)
+    if (answer_1 == 1) 
     {
         while (true)
         {
@@ -375,8 +375,9 @@ while (true)
         Console.WriteLine("Досвидание, дайте оценку моему калькуялтору по пятибальной шкале, где 5 самый высокий балл, а 1 самый низкий :)");
         return;
     }
-    else if (answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 1 || answer_1 != 9)
+    else if (answer_1 != 1 || answer_1 != 2 || answer_1 != 3 || answer_1 != 4 || answer_1 != 5 || answer_1 != 6 || answer_1 != 7 || answer_1 != 8 || answer_1 != 9)
     {
         Console.WriteLine("Недопустимое значение! Попробуйте еще раз.");    
     }
-}
+} 
+      
